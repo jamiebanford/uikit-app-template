@@ -17,6 +17,9 @@ build/
 *.mode2v3
 *.perspectivev3
 
+# Private build settings
+Project.xcconfig
+
 # Whitelist the defaults
 !default.pbxuser
 !default.mode1v3
