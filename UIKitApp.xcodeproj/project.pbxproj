@@ -11,7 +11,6 @@
 		7D14A1022DDCA30A009087EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14A0FE2DDCA30A009087EA /* SceneDelegate.swift */; };
 		7D14A1032DDCA30A009087EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14A0FF2DDCA30A009087EA /* ViewController.swift */; };
 		7D14A1042DDCA30A009087EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D14A0F82DDCA30A009087EA /* Assets.xcassets */; };
-		7D14A1062DDCA30A009087EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D14A0FB2DDCA30A009087EA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,7 +18,6 @@
 		7D14A0F72DDCA30A009087EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D14A0F82DDCA30A009087EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D14A0F92DDCA30A009087EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D14A0FA2DDCA30A009087EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D14A0FE2DDCA30A009087EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7D14A0FF2DDCA30A009087EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +57,6 @@
 				7D14A0FF2DDCA30A009087EA /* ViewController.swift */,
 				7D14A0F82DDCA30A009087EA /* Assets.xcassets */,
 				7D14A0F92DDCA30A009087EA /* Info.plist */,
-				7D14A0FB2DDCA30A009087EA /* LaunchScreen.storyboard */,
 			);
 			path = UIKitApp;
 			sourceTree = "<group>";
@@ -126,7 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D14A1042DDCA30A009087EA /* Assets.xcassets in Resources */,
-				7D14A1062DDCA30A009087EA /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,17 +141,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		7D14A0FB2DDCA30A009087EA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D14A0FA2DDCA30A009087EA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		7D14A0F22DDCA23C009087EA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -168,7 +153,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UIKitApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -195,7 +179,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UIKitApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
